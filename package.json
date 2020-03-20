@@ -1,7 +1,7 @@
 {
-  "name": "Webix Marketplace Template",
+  "name": "marketplace-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Marketplace template for Webix UI",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.config.js",
