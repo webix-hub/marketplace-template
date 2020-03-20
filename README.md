@@ -3,6 +3,8 @@ Webix Marketplace Template
 
 Check the Marketplace web template for the Webix UI library. 
 
+[Marketplace live demo](https://webix-hub.github.io/marketplace-template/dist/es5/index.html).
+
 Use this template as a part of a marketplace solution with the following features:
 
 - Items lists with thumbnails, description, and price;
