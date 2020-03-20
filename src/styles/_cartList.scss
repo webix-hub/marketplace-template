@@ -1,0 +1,53 @@
+.cartList {
+	background-color: transparent;
+	.webix_dataview_item {
+		&, &.webix_selected {
+			background-image: none;
+			padding: 30px 30px;
+			background-color:transparent;
+			border-color: transparent;
+		}
+
+		&.webix_selected {
+			.overall {
+				background-color: #F4F5F9;
+			}
+		}
+
+		.overall {
+			padding: 10px;
+			background-color: #fff;
+			position: relative;
+			box-shadow: 0px 1px 1px #d4d7de;
+			height: 100%;
+
+			.itemImg {
+				box-sizing: border-box;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin-bottom: 10px;
+			}
+
+			.edit_item {
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				padding-left: 10px;
+				> i {
+					color: #AAA;
+					font-size: 14px;
+				}
+	
+				&:hover {
+					> i {
+						color: grey;
+					}
+				}
+			}
+		}
+	}
+}

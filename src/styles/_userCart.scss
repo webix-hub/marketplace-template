@@ -1,0 +1,17 @@
+.userCart {
+	.webix_template {
+		display: flex;
+		flex-direction: column;
+		.avatarImg {
+			flex-grow: 1;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+
+		.avatarContent {
+			text-align: center;
+			margin:2px 0px;
+		}
+	}
+}
