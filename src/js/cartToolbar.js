@@ -3,7 +3,7 @@ export const cartToolbar = {
 	borderless: true,
 	margin: 10,
 	paddingX: 10,
-	paddingY: 14,
+	paddingY: 6,
 	css: "cart_toolbar",
 	cols: [
 		{
