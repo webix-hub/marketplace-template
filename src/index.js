@@ -21,8 +21,8 @@ webix.ready(() => {
 				type: "clean",
 				cols: [
 					{
-						width: 250,
-						margin: 10,
+						css: "borderRight",
+						width: 250,						
 						rows: [
 							userCart,
 							leftMenu
