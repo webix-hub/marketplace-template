@@ -1,10 +1,8 @@
 export const cartToolbar = {
 	view: "toolbar",
-	borderless: true,
 	margin: 10,
-	paddingX: 10,
-	paddingY: 14,
-	css: "cart_toolbar",
+	paddingX: 16,
+	paddingY: 6,
 	cols: [
 		{
 			view: "label",

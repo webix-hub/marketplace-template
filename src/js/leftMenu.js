@@ -1,6 +1,5 @@
 export const leftMenu = {
 	view: "menu",
-	borderless: true,
 	layout: "y",
 	css: "leftMenu",
 	select: true,
