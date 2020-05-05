@@ -1,5 +1,5 @@
 export const userCart = {
-	css: "white",
+	css: "cartBox",
 	padding: 10,
 	rows: [
 		{
@@ -11,10 +11,10 @@ export const userCart = {
 			template(obj) {
 				const html = `
 					<div class="avatarImg" style="background-image: url(${obj.src});"></div>
-					<div class="avatarContent">
+					<div class="avatarContent userName">
 						<span>${obj.name}</span>
 					</div>
-					<div class="avatarContent webix_strong">
+					<div class="avatarContent">
 						<span>${obj.balance}</span>
 					</div>
 				`;
@@ -23,7 +23,7 @@ export const userCart = {
 		},
 		{
 			view: "combo",
-			label: "Royalty Balance:",
+			label: "Royalty Balance",
 			labelWidth: 115,
 			value: "All Time",
 			options: ["All Time", "Last Week"]

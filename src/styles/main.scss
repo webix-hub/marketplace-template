@@ -1,5 +1,4 @@
 @import "cartList";
-@import "cartToolbar";
 @import "leftMenu";
 @import "userCart";
 
@@ -7,10 +6,14 @@
 	background-color: #dadbdd;
 }
 
-.white {
-	background-color: #ffffff;
-}
-
 .grey {
 	background-color: #ebedf0;
+}
+
+.text_danger {
+	color: #FF5C4C;
+}
+
+.text_success {
+	color: #55CD97;
 }

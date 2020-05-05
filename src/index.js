@@ -18,11 +18,9 @@ webix.ready(() => {
 			{
 				width: 1420,
 				css: "grey",
-				type: "clean",
 				cols: [
 					{
 						width: 250,
-						margin: 10,
 						rows: [
 							userCart,
 							leftMenu
@@ -31,12 +29,7 @@ webix.ready(() => {
 					{
 						rows: [
 							cartToolbar,
-							{
-								cols: [
-									cartList
-								]
-							}
-
+							cartList
 						]
 					}
 				]
